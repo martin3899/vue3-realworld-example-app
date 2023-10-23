@@ -22,6 +22,7 @@ declare global {
     // noinspection JSUnusedGlobalSymbols
     interface Chainable {
       login(): void
+      test (): void
     }
   }
 }
