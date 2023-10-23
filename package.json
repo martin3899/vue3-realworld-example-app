@@ -58,6 +58,9 @@
     "pre-push": "npm run lint && npm run build"
   },
   "rules": {
-    "linebreak-style": "off"
+    "linebreak-style": [
+      "error",
+      "unix"
+    ]
   }
 }
