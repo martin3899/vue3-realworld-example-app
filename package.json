@@ -56,5 +56,8 @@
   "simple-git-hooks": {
     "pre-commit": "npm exec lint-staged",
     "pre-push": "npm run lint && npm run build"
+  },
+  "rules": {
+    "linebreak-style": "off"
   }
 }
